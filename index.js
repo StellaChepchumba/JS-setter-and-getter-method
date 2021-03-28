@@ -1,12 +1,13 @@
 
-function kiosk(){
-  var fruit=fruits["peach","apples","tomatoes"];
-  set (fruits[1],"mango");
-  {
-    this.fruits=[1],"mango";
-  };
-  get ;this.fruits[1]; (){=>
-    return this.fruit;
-  }
-  };
-  console.log(fruits.fruits);
+  var kiosk={
+    fruits:["peach"],
+    fruit2:["mango"],
+ set fruit(fruit){
+    this.fruit2=this.fruit2
+  },
+  get fruit(){
+    return this.fruit2
+  },
+}
+console.log(kiosk.fruit2);
+  
