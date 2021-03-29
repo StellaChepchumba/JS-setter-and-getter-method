@@ -9,5 +9,7 @@
     return this.fruit2
   },
 }
+kiosk.fruits;
+console.log(kiosk.fruits);
 console.log(kiosk.fruit2);
   
